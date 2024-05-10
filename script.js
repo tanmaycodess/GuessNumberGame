@@ -58,7 +58,7 @@ document.querySelector('.check').addEventListener('click', function() {
         document.querySelector('.number').textContent = number;
 
         //changing the heading
-        document.querySelector("#heading").textContent = "yaay!! you guessed the number"
+        document.querySelector("#heading").textContent = "yaay!! 😍"
 
         // changing css when player wins the game
 
