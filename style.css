@@ -51,7 +51,7 @@ h1 {
     text-align: center;
     position: absolute;
     width: 100%;
-    top: 52%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -116,4 +116,61 @@ h1 {
 
 .label-score {
     margin-bottom: 2rem;
+}
+
+/* Media Queries for Mobile Devices */
+@media only screen and (max-width: 768px) {
+    body {
+        font-size: 50%;
+        /* Adjust font size for smaller screens */
+    }
+
+    .left,
+    .right {
+        width: auto;
+        /* Allow content to take full width on smaller screens */
+        text-align: center;
+        /* Center align content on smaller screens */
+    }
+
+    .number {
+        font-size: 4rem;
+        /* Decrease font size for number on smaller screens */
+        width: 15rem;
+        /* Keep width for number on smaller screens */
+    }
+
+    .guess {
+        font-size: 4rem;
+        /* Decrease font size for guess input on smaller screens */
+        width: 20rem;
+        /* Keep width for guess input on smaller screens */
+        margin-bottom: 1.5rem;
+        /* Add margin bottom for guess input on smaller screens */
+    }
+
+    .btn {
+        font-size: 1.8rem;
+        /* Decrease font size for buttons on smaller screens */
+        padding: 1.8rem 2.5rem;
+        /* Adjust padding for buttons on smaller screens */
+    }
+
+    .message {
+        margin-bottom: 5rem;
+        /* Decrease margin for message on smaller screens */
+    }
+
+    .label-score {
+        margin-bottom: 1.5rem;
+        /* Decrease margin for score label on smaller screens */
+    }
+
+    .between,
+    .again {
+        position: static;
+        /* Override position for these elements on smaller screens */
+        margin-top: 1.5rem;
+        /* Add margin top for these elements on smaller screens */
+    }
 }

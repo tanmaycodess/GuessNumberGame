@@ -25,8 +25,8 @@ using a CSS selector */
 /* --------------------------------------------------------------------------------------------------------- */
 
 // defining the secrect number
-let number = Math.trunc(Math.random()*20)+1;
-// document.querySelector('.number').textContent = number;
+let number = Math.trunc(Math.random()*100)+1;
+document.querySelector('.number').textContent = number;
 
 
 // score variable 
