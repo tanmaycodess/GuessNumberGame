@@ -92,7 +92,7 @@ document.querySelector('.check').addEventListener('click', function() {
 
   else {
     document.querySelector('.message').textContent = " 😢 you lost";
-    document.querySelector("#heading").textContent = "ufff!! you couldnt guess the right number"
+    document.querySelector("#heading").textContent = "ufff!! 😒"
 
   }
 
